@@ -5,6 +5,8 @@
    "main": "./lib/main/index.js",
    "scripts": {
       "build": "tsc",
+      "watch": "tsc -w",
+      "clear": "rm -rf ./lib",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
    "author": "",

@@ -1,23 +1,9 @@
 {
+   "extends": "../../tsconfig.json",
    "compilerOptions": {
-      "strict": true,
-      "allowJs": false,
-      "allowUnreachableCode": false,
-      "forceConsistentCasingInFileNames": true,
-      "module": "CommonJs",
-      "moduleResolution": "node",
-      "noFallthroughCasesInSwitch": true,
-      "noImplicitReturns": true,
-      "noImplicitThis": true,
-      "noImplicitUseStrict": false,
-      "strictNullChecks": true,
-      "noImplicitAny": true,
-      "target": "es6",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "declaration": true,
+      "jsx": "preserve",
       "rootDir": "src",
-      "outDir": "lib"
+      "outDir": "lib",
    },
    "exclude": [
       "lib",
