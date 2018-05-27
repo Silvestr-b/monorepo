@@ -1,5 +1,5 @@
 import * as react from 'react';
-import { Core } from '@trainergo/core';
+import { Core } from '@monorepo/core';
 import { IInputProps, IInputFactory } from './IInput';
 
 
