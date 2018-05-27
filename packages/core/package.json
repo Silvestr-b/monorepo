@@ -1,0 +1,14 @@
+{
+   "name": "@trainergo/core",
+   "version": "1.0.8",
+   "description": "",
+   "main": "./lib/main/index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/react-native": "^0.55.12"
+   }
+}
