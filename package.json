@@ -10,8 +10,7 @@
    "license": "ISC",
    "description": "",
    "workspaces": [
-      "packages/common/*",
-      "packages/platform/*"
+      "packages/*"
    ],
    "devDependencies": {
       "lerna": "^2.11.0"

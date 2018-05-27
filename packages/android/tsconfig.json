@@ -1,27 +1,13 @@
 {
+   "extends": "../../tsconfig.json",
    "compilerOptions": {
-      "strict": true,
-      "allowJs": false,
-      "allowUnreachableCode": false,
-      "forceConsistentCasingInFileNames": true,
-      "module": "CommonJs",
-      "moduleResolution": "node",
-      "noFallthroughCasesInSwitch": true,
-      "noImplicitReturns": true,
-      "noImplicitThis": true,
-      "noImplicitUseStrict": false,
-      "strictNullChecks": true,
-      "noImplicitAny": true,
-      "target": "es6",
+      "jsx": "preserve",
       "rootDir": "src",
       "outDir": "lib",
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "declaration": true,
-      "jsx": "preserve"
    },
    "exclude": [
       "lib",
-      "node_modules"
+      "node_modules",
+      "index.d.ts"
    ]
 }
