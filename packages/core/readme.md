@@ -1,1 +1,1 @@
-# Пакет компонетов для всех платформ
+# All platforms components package

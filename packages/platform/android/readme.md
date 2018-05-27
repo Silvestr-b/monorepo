@@ -1,1 +1,1 @@
-# Пакет компонетов для Android
+# Android specific components package
